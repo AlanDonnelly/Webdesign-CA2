@@ -96,3 +96,12 @@ td{
     font-family: 'Protest Riot', sans-serif;
     font-size: medium;
 }
+
+.page_title{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: x-large;
+}
