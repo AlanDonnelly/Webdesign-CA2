@@ -42,3 +42,57 @@
     background-color: black;
     text-align: center;
 }
+
+.info{
+    padding: 10px;
+    background-color: black;
+    padding-left: 400px;
+    color: white;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
+
+.contact{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: x-large;
+}
+
+.black_background{
+    background-color: black;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+th{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
+td{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
+
+.copyright{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: medium;
+}
