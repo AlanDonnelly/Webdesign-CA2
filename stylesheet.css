@@ -105,3 +105,9 @@ td{
     font-family: 'Protest Riot', sans-serif;
     font-size: x-large;
 }
+
+.all_equipment{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
