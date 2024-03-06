@@ -111,3 +111,29 @@ td{
     background-color: black;
     text-align: center;
 }
+
+.input_title{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
+
+.input{
+    padding-bottom: 5px;
+    background-color: black;
+    text-align: center;
+}
+
+.radio_button{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
