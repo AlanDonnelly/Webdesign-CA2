@@ -137,3 +137,38 @@ td{
     font-family: 'Protest Riot', sans-serif;
     font-size: large;
 }
+
+.drop_down_list{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.comments_title{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
+
+.checkbox{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: large;
+}
+
+.submit_button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    text-align: center;
+}
