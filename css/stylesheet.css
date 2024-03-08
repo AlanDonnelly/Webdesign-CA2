@@ -43,6 +43,16 @@
     text-align: center;
 }
 
+.img_source{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: gray;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: medium;
+    font-style: italic;
+}
+
 .info{
     padding: 10px;
     background-color: black;
