@@ -1,0 +1,124 @@
+
+.navaltcolor{
+  background-color: #8CB9BD;
+}
+
+.navcontainer{
+  margin: auto;
+  width: 50%;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbg {
+  background-color: #8CB9BD;
+}
+
+.nav-item :hover{
+    color: #FEFBF6;
+}
+
+
+.mainlogoimg {
+position: inherit;
+}
+
+.btn-primary{
+    border:none !important;
+    color: #FEFBF6;
+    background-color: #8CB9BD;
+}
+
+.btn-hover{
+    color: #B67352;
+    background-color: #ECB159;
+}
+
+.btn-click{
+    color: #ECB159;
+    background-color: #B67352;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    }
+
+  h2 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  h3 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  h4{
+    font-family: "Montserrat", sans-serif;
+    color: #ECB159;
+    background-color: #B67352;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h5{
+    font-family: "Montserrat", sans-serif;
+    color: #FEFBF6;
+    background-color:  #8CB9BD;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h6{
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    background-color:   #ECB159;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h7{
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    background-color:  #FEFBF6;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .footerwrap{
+    background-color:  #8CB9BD;
+  }
+
+  #footertext{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .footlinks{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+  }
+
+
+  
+
