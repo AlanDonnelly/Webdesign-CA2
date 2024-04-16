@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="Styles/style.css">
 
 </head>
+
  <!-- Navbar Start -->
 <div class="navaltcolor">
   <div class="navcontainer">
@@ -49,7 +50,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="productspageone.html">Guitars and Gear</a></li>
-                <li><a class="dropdown-item" href="productspagetwo.html">Studio and Percussion</a></li>
+                <li><a class="dropdown-item" href="productspagetwo.html">Amps and Speakers</a></li>
                 <li><a class="dropdown-item" href="productsrentals.html">Rentals</a></li>
               </ul>
             </li>
@@ -72,28 +73,100 @@
  <!-- Navbar End -->
 
 <body>
-  <div id="imagecarousel" class="carousel slide" data-bs-ride="carousel">
+   <!-- Carousel Start -->
+  <div id="carouselhome" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Images\Logo(nav).png"class="d-block w-25" alt="...">
+        <a href="productspagetwo.html">
+        <img src="Images\Home Page\AmpsSplashImage.png" class="d-block w-100" alt="..."></a>
+        <!-- Image Reference: https://www.pexels.com/photo/bugera-amplifier-97181/ -->
       </div>
       <div class="carousel-item">
-        <img src="Images\Logo(nav).png" class="d-block w-25" alt="...">
+        <a href="productspageone.html">
+        <img src="Images\Home Page\GuitarsSplashImage.png" class="d-block w-100" alt="..."></a>
+        <!-- Image Reference: https://www.pexels.com/photo/woman-holding-guitar-sitting-on-dock-2692080/ -->
       </div>
       <div class="carousel-item">
-        <img src="Images\Logo(nav).png" class="d-block w-25" alt="...">
+        <a href="productsrentals.html">
+        <img src="Images\Home Page\RentalsSplashImage.png" class="d-block w-100" alt="..."></a>
+        <!-- Image Reference: https://www.pexels.com/photo/a-band-having-a-rehearsal-5648438/ -->
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselhome" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselhome" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+  <!-- Carousel End-->
+<div id="gallerydivbg">
+    <br>
+  <br>
+  <p id="gallerytext">Top Sellers</p>
+  <br>
+
+  <!-- Gallery Start -->
+  <div id="gallerywidth">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\gibson335.png" class="w-100 shadow-1-strong mb-4" alt="Gibson 335"/>
+            <!-- Image Reference: https://www.pexels.com/photo/red-electric-guitar-165971/ -->
+        </a>
+        
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\yamaha-piano.png" class="w-100 shadow-1-strong mb-4" alt="Yamaha Piano"/>
+            <!-- Image Reference: https://www.pexels.com/photo/black-yamaha-piano-164743/ -->
+        </a>
+
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\sm58.png" class="w-100 shadow-1-strong mb-4" alt="SM58"/>
+          <!-- Image Reference: https://www.pexels.com/photo/black-and-gray-microphone-164829/ --> 
+        </a>    
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\strat.png" class="w-100 shadow-1-strong mb-4" alt="Fender Strat"/>
+          <!-- Image Reference: https://www.pexels.com/photo/photo-of-electric-guitar-3807656/ -->
+        </a>
+        
+        <a href="productspagetwo.html">
+          <img src="Images\Home Page\Gallery Images\marshall.png" class="w-100 shadow-1-strong mb-4" alt="Marshall Amplifier"/>
+          <!-- Image Reference: https://www.pexels.com/photo/marshall-black-guitar-amplfier-164903/ -->
+        </a> 
+
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\Keyboard.png" class="w-100 shadow-1-strong mb-4" alt="Keyboard"/>
+          <!-- Image Reference: https://www.pexels.com/photo/electronic-keyboard-2876659/ -->
+        </a>      
+      </div>
+      
+      <div class="col-lg-4 mb-4 mb-lg-0">
+
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\bass.png" class="w-100 shadow-1-strong mb-4" alt="Bass Guitar" />
+          <!-- Image Reference: https://www.pexels.com/photo/close-up-shot-of-a-person-playing-an-electric-guitar-8044058/ -->
+        </a>
+
+        <a href="productspagetwo.html">
+          <img src="Images\Home Page\Gallery Images\Gigabyte-Studio-Monitor.png" class="w-100 shadow-1-strong mb-4" alt="Gigabyte Studio Monitor"/>
+          <!-- Image Reference: https://www.pexels.com/photo/black-speaker-close-up-photography-2651794/ -->
+        </a>
+
+        <a href="productspageone.html">
+          <img src="Images\Home Page\Gallery Images\Drums.png" class="w-100 shadow-1-strong mb-4" alt="Drums"/>   
+          <!-- Image Reference: https://www.pexels.com/photo/tilt-shift-photo-of-acoustic-drum-set-995301/-->
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Gallery End -->
+</div>
 
    <!-- Footer Start -->
   <section class="footerwrap">

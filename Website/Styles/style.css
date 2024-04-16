@@ -25,6 +25,33 @@
 position: inherit;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  background-color:#8CB9BD;
+  border: 1px solid #FEFBF6;
+  
+}
+
+#gallerydivbg{
+  background-color:#FEFBF6;
+}
+
+#gallerywidth{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#gallerytext{
+  font-family: "Montserrat", sans-serif;
+  color: #8CB9BD;
+  text-align: center;
+  font-size:3vw;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .btn-primary{
     border:none !important;
     color: #FEFBF6;
