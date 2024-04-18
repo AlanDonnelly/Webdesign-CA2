@@ -27,6 +27,8 @@
 
     <link rel="stylesheet" href="Styles/style.css">
 
+    <script src="external_tony.js"></script>
+
 </head>
  <!-- Navbar Start -->
 <div class="navaltcolor">
@@ -76,7 +78,72 @@
     <br>
     <br>
     <br>
-    Fill me with info!
+    <div class="text_centered">
+      <form name="myForm" method="post">
+        Name:* 
+        <br>
+        <input type="text" name="fname">
+        <br>
+        <br>
+        ID:* 
+        <br>
+        <input id="id">
+      </form>
+    </div>
+    <br>
+    <div class="text_centered">
+      Your Phone Number*
+    </div> 
+    <div class="text_centered">
+      <input type="number" min="10" max="10" style="width: 230px;">
+    </div>
+    <br>
+    <div class="text_centered">
+      Your Email*
+    </div> 
+    <div class="text_centered">
+      <input type="email" size="30" pattern=".+@example\.com" maxlength="30" required>
+    </div>
+    <br>
+    <div class="text_centered">
+      How would you like us to contact you?
+    </div> 
+    <div class="text_centered">
+      <input type="radio">
+      <label>Phone</label>
+      <input type="radio">
+      <label>Email</label>
+    </div>
+    <br>
+    <div class="text_centered">
+      Your desired equipment:
+    </div> 
+    <div class="text_centered">
+      <select>
+          <option>Guitar</option>
+          <option>Drums</option>
+          <option>Keyboard</option>
+          <option>Amplifier</option>
+      </select>
+    </div>
+    <br>
+    <div class="text_centered">
+      Do you want to leave us any additional comments?
+    </div>
+    <div class="text_centered">
+      <textarea rows="4" cols="50"></textarea>
+    </div>
+    <br>
+    <div class="text_centered">
+      <input type="checkbox">
+      <label> I agree to your T & C</label><br>
+      <input type="checkbox">
+      <label> I want to subscribe to your monthly newsletter</label><br>
+    </div>
+    <br>
+    <div class="text_centered">
+      <button type="button" onclick="validateForm()">Submit</button>
+    </div>
     <br>
     <br>
     <br>
