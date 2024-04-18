@@ -232,14 +232,11 @@ h1 {
     margin: 20px;
   }
 
-  .honk{
-    font-family: "Honk", system-ui;
+  .lorem{
+    font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
-    font-variation-settings:
-      "MORF" 15,
-      "SHLN" 50;
   }
 
 
