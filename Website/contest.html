@@ -2,7 +2,7 @@
 <html lang="eng">
 
 <head>
-    <title>Simple Music Store</title>
+    <title>Contest - Simple Music Store</title> <!-- Contest Page Design by Alan -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale-1.0">
@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="Styles/style.css">
 
 </head>
+
  <!-- Navbar Start -->
 <div class="navaltcolor">
   <div class="navcontainer">
@@ -70,18 +71,36 @@
   </div>
 </div>
  <!-- Navbar End -->
+<div id="gallerydivbg">
 
-    <p>
-    <br>
-    <br>
-    <br>
-    <br>
-    Fill me with info!
-    <br>
-    <br>
-    <br>
-    <br>
-    </p>
+  <div id="contestbanner">
+    <!-- Image Reference: https://www.pexels.com/photo/people-enjoying-the-concert-1047442/ -->
+    <img src="Images/Contest/Contest-Banner.png" alt="Contest" class="d-block w-100">
+  </div>
+
+    <!-- Game Start -->
+ 
+  <div id="gallerywidth"> 
+    <div id="coveringimgs">
+      <img src="Images\Contest\QuestionMark.png" alt="Question Mark 1" id="img1" class="image">
+      <img src="Images\Contest\QuestionMark.png" alt="Question Mark 2" id="img2" class="image">
+      <img src="Images\Contest\QuestionMark.png" alt="Question Mark 3" id="img3" class="image">
+    </div>
+    <div id="winlose"></div>
+      <div id="winTextDiv" style="display: none;">
+        <p id="winTextHead">Congratulations on your win, here's what you need to do to claim your prize...</p>
+        <p id="winTextBody">Simply copy this code "<strong>XXIU-IXUDJF-HJDKHKJ-WYTEYU</strong>" and head to our contact page by
+        clicking the link below, then send us an email with the code in the and we'll get back to you A.S.A.P with more details on your prize!<br>
+        Congratulations again! </p>
+
+        <button id="contactButton">Contact Us</button>
+        
+    </div>
+      
+  </div>
+</div>
+<!-- Game End -->
+
     
    <!-- Footer Start -->
   <section class="footerwrap">
@@ -160,6 +179,9 @@
     </footer>
   </section>
   <!-- Footer End -->
+
+  <script src="Scripts\script.js"></script>
+
  </body> 
 
 </html>

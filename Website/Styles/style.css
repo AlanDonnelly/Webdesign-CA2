@@ -46,7 +46,7 @@ position: inherit;
   font-family: "Montserrat", sans-serif;
   color: #8CB9BD;
   text-align: center;
-  font-size:3vw;
+  font-size:50px;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -68,6 +68,81 @@ position: inherit;
     background-color: #B67352;
 }
 
+/* Game Start */
+#coveringimgs {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.image {
+  cursor: pointer;
+  width: 20%;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#winTextDiv{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#winTextHead{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#winTextBody{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    
+}
+
+#contactButton {
+    border:none !important;
+    color: #FEFBF6;
+    background-color: #8CB9BD;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+/* Game End */
+
+/* Career Section Start*/
+#careerTextHead{
+  font-family: "Montserrat", sans-serif;
+  color: #8CB9BD;
+  text-align: center;
+  font-size:xx-large;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#careerTextBody{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: large;
+  
+}
+
+
+/* Career Section End*/
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -99,15 +174,6 @@ h1 {
     font-style: normal;
   }
 
-  h5{
-    font-family: "Montserrat", sans-serif;
-    color: #FEFBF6;
-    background-color:  #8CB9BD;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-
   h6{
     font-family: "Montserrat", sans-serif;
     color: #000000;
@@ -121,6 +187,14 @@ h1 {
     font-family: "Montserrat", sans-serif;
     color: #000000;
     background-color:  #FEFBF6;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .text-uppercase{
+    font-family: "Montserrat", sans-serif;
+    color: #FEFBF6;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
