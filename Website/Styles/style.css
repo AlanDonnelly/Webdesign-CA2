@@ -199,6 +199,14 @@ position: inherit;
     font-style: normal;
   }
 
+  #meet_the_team{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+  }
+
   /* jesse css for pages Instruments + Amplifiers*/
 
   .image-link {
