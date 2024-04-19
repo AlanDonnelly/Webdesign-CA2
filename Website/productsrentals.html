@@ -1,40 +1,38 @@
+<!--Jesse G: 23277815:-->
+
 <!DOCTYPE html>
 <html lang="eng">
-
 <head>
-    <title>Simple Music Store</title>
+  <title>Rental Service</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Oswald Font: https://fonts.google.com/specimen/Oswald -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <!-- Mulish Font: https://fonts.google.com/specimen/Mulish -->
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- Montserrat Font: https://fonts.google.com/specimen/Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Oswald Font: https://fonts.google.com/specimen/Oswald -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <!-- Mulish Font: https://fonts.google.com/specimen/Mulish -->
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <!-- Montserrat Font: https://fonts.google.com/specimen/Montserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="Styles/style.css">
-
+  <link rel="stylesheet" href="Styles/style.css">
+  <script src="Scripts/jesse_Objs.js"></script>
+  <script src="Scripts/external_jesse.js"></script>
 </head>
- <!-- Navbar Start -->
+<body onload="renderProductsSelect()" style="overflow-x: hidden;">
+
+<!-- Navbar Start -->
 <div class="navaltcolor">
   <div class="navcontainer">
     <nav class="navbar navbar-expand-lg navbg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img id="mainlogoimg" src="Images\Logo(nav).png" alt="shaggymanestudios Logo" href="index.html"></a>
+        <a class="navbar-brand" href="index.html">
+          <img id="mainlogoimg" src="Images/Logo(nav).png" alt="Simple Music Store Logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,104 +60,152 @@
             <li class="nav-item">
               <a class="nav-link" href="contactus.html">Contact Us</a>
             </li>
-            
           </ul>
         </div>
       </div>
     </nav>
   </div>
 </div>
- <!-- Navbar End -->
- 
-    <p>
-    <br>
-    <br>
-    <br>
-    <br>
-    Fill me with info!
-    <br>
-    <br>
-    <br>
-    <br>
-    </p>
+<!-- Navbar End -->
 
-    <!-- Footer Start -->
-  <section class="footerwrap">
-    <!-- Footer -->
-    <footer class="mt-auto text-center">
-      <!-- Grid container -->
-      <div class="container p-4">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Footer Content</h5>
-  
-            <p id="footertext">
-              Simple Music Store is here for all your music needs.<br>
-              Whether you need to kit out your studio, update your axe, slap a bass, hit the skins or<br>
-              stroke the keys, we have you covered! <br>
-              We have all the gear you could ever need so hit us up and we'll get you sorted!
-              
-            </p>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Store Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="productspageone.html" class="footlinks">Products</a>
-              </li>
-              <li>
-                <a href="contest.html" class="footlinks">Competitions</a>
-              </li>
-              <li>
-                <a href="aboutus.html" class="footlinks">About Us</a>
-              </li>
-              <li>
-                <a href="contactus.html" class="footlinks">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-0">Socials</h5>
-  
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!" class="footlinks">Facebook</a>
-              </li>
-              <li>
-                <a href="#!" class="footlinks">Twitter</a>
-              </li>
-              <li>
-                <a href="#!" class="footlinks">Instagram</a>
-              </li>
-              <li>
-                <a href="#!" class="footlinks">Tik-Tok</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
+<div class="image-link">
+  <img src="Images/Home Page/RentalsSplashImage.png" alt="Amplifiers" style="height: 422px">
+  <!-- Image Reference: https://www.pexels.com/photo/woman-holding-guitar-sitting-on-dock-2692080/ -->
+</div>
+
+<!--Page header -->
+
+<div id="instruments-intro">
+  <span>
+    <h1>Rental Service</h1>
+  </span>
+  <p>We offer a robust set of our products for rental for Studio or Live performances, Below are the details of how you can get started!</p>
+</div>
+<br>
+<br>
+
+<div id="rentals-container">
+  <div id="rentals-overview-container">
+    <div id="rentals-overview">
+      <h2>Simple Music Store Rentals</h2>
+      <br>
+      <h4><em>Musical Equipment Rental - Made Simple</em></h4>
+      <hr>
+      <p>We pride ourselves on our ability to answer the call from you and all the other 
+        hardworking musicians all over this country. By offering top of the line gear for rental.
+      </p>
+      <br>
+      <p>
+        Each item that is available for you consideration on the Instruments and Amplifiers pages 
+        is available for rent at a daily rate. We do offer discounts for bulk short term rentals. We therefore request 
+        that all customers of <em>Simple Music Store</em> who wish to avail of our rental service will follow this specific form 
+        as it alows us to process Inquiries is the most efficient manner possible.
+      </p>
+      <br>
+      <p>Here you have the Equipment Rentals Enquiry form, where you will be prompted to provide us with all the details we need to 
+        review your Enquiry and we will be back in touch shortly with an answer regarding product availability
+        and final pricing.
+      </p>
+      <br>
+      <h5>Cheers,</h5>
+      <h5><em>The Simple Music Store Team</em></h5>
+    </div>
+  </div>
+  <div id="form-body">
+    <form id="rental-form" action="">
+      <label for="name">Name:</label>
+      <input id="name" type="text" placeholder="Ghengis Khan">
+      <label for="phone">Contact Phone Number:</label>
+      <input id="phone" type="number" placeholder="086-420-6969">
+      <label for="email">Email:</label>
+      <input id="email" type="text" placeholder="thegreatkhan69@thesteppe.mon">
+      <label for="date">Dates for Inquiry:</label>
+      <input id="date" type="date" >
+      <label for="products">Select Products: (CTRL + Click for multiples)</label>
+      <select id="products-selector" multiple>
+      </select>
+      <button type="submit" onclick="validateForm()">Submit!</button>
+      <div id="error"></div>
+    </form>
+  </div>
+</div>
+
+<!-- Footer Start -->
+<section class="footerwrap">
+  <!-- Footer -->
+  <footer class="mt-auto text-center">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+
+          <p id="footertext">
+            Simple Music Store is here for all your music needs.<br>
+            Whether you need to kit out your studio, update your axe, slap a bass, hit the skins or<br>
+            stroke the keys, we have you covered! <br>
+            We have all the gear you could ever need so hit us up and we'll get you sorted!
+
+          </p>
         </div>
-        <!--Grid row-->
-      </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2024 Copyright:
-        <a class="text-body" href="">Simple Music Store</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-  </section>
-  <!-- Footer End -->
- </body> 
+        <!--Grid column-->
 
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Store Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="productspageone.html" class="footlinks">Products</a>
+            </li>
+            <li>
+              <a href="contest.html" class="footlinks">Competitions</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="footlinks">About Us</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="footlinks">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Socials</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="footlinks">Facebook</a>
+            </li>
+            <li>
+              <a href="#!" class="footlinks">Twitter</a>
+            </li>
+            <li>
+              <a href="#!" class="footlinks">Instagram</a>
+            </li>
+            <li>
+              <a href="#!" class="footlinks">Tik-Tok</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-body" href="">Simple Music Store</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</section>
+<!-- Footer End -->
+</body>
 </html>

@@ -1,4 +1,9 @@
 
+body{
+  width: 100vw;
+  background-color: #FEFBF6;
+}
+
 .navaltcolor{
   background-color: #8CB9BD;
 }
@@ -241,6 +246,239 @@ h1 {
       "MORF" 15,
       "SHLN" 50;
   }
+
+  /* jesse css for pages Instruments + Amplifiers*/
+
+  #instruments-intro {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #instruments-intro h1 {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    color: #8CB9BD;
+    font-size:3vw;
+    font-weight: 700;
+    font-style: normal;
+  }
+  #instruments-intro #instrument-count {
+    display: inline;
+    color: #B67352;
+  }
+
+#instruments-filter {
+  border-top: 3px solid #B67352;
+  border-bottom: 3px solid #B67352;
+  padding: 4vw;
+}
+
+#audio-filter {
+  border-top: 3px solid #B67352;
+  border-bottom: 3px solid #B67352;
+  padding: 4vw;
+}
+
+#pillNav2 {
+  min-width: 100%;
+  background-color: #8CB9BD;
+  border: 1px solid #B67352;
+}
+  
+#pillNav2 .nav-link {
+  background-color: #B67352;
+  border: 1px solid #FEFBF6;
+  color: #FEFBF6;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+}
+#pillNav2 .nav-link:hover {
+  color: #ECB159;
+}
+
+#pillNav2 .nav-link.active {
+  background-color: #FEFBF6;
+  color: #ECB159;
+}
+
+#product-card {
+  border: 1px solid #B67352;
+  background-color: #FEFBF6;
+  overflow: hidden;
+  font-family: "Oswald", sans-serif;
+  transition: all .5s ease-in-out;
+}
+
+#card-image {
+  overflow: hidden;
+  padding: 0;
+  padding-top: 0%;
+}
+
+#card-image img {
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 202px;
+  max-height: 202px;
+}
+
+#card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3vh;
+  text-align: start;
+  transition: all .5s ease-in-out;
+  overflow: visible;
+}
+
+
+#product-card:hover {
+  transform: scale(1.01,1.01);
+  background-color: #e8e5df;
+  overflow: hidden;
+}
+
+#product-card h4, #product-card h5 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1vh;
+}
+
+#product-card h5 {
+  color: #8CB9BD;
+}
+
+#product-card h6 {
+  color: #B67352;
+  font-family: 'Mulish', sans-serif;
+}
+
+#product-card span {
+  font-size: small;
+  color: #000000;
+}
+
+#product-card p {
+  margin-top: 2VH;
+  display: inline-block;
+  border: 2px dashed black;
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+  color: #000000;
+}
+
+#card-title{
+  font-weight: bolder;
+}
+
+#product-details{
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+}
+
+/* jesse css for page Rentals */
+
+#rentals-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 50rem;
+}
+
+#rentals-overview-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: #FEFBF6;
+  background-image: url('../Images/Rentals/rentalsoverview.jpg');
+  /*Photo by <a href="https://unsplash.com/@actionvance?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ActionVance</a> on <a href="https://unsplash.com/photos/crowd-facing-lighted-stage-eXVd7gDPO9A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+  height: 100%;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+#rentals-overview{
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  background-color: #fefbf685;
+  border: 3px solid #B67352;
+  font-family: 'Oswald', sans-serif;
+  height: 90%;
+  width: 90%;
+}
+
+#rentals-overview h2, #rentals-overview h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+#rentals-overview p{
+  font-weight: 400;
+}
+
+#form-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+#form-body label {
+  font-size: x-large;
+  font-family: 'Mulish', sans-serif;
+}
+
+#error {
+  color: red;
+  font-size: small;
+  overflow: wrap;
+}
+
+
+#form-body input {
+  display: block;
+  border: 2px solid #B67352;
+  border-radius: 2px;
+  height: 3rem;
+  width: 20rem;
+  font-size: x-large;
+  font-family: 'Oswald', sans-serif;
+}
+
+#products-selector {
+  display: block;
+  border: 2px solid #B67352;
+  border-radius: 2px;
+  height: 15rem;
+  width: 20rem;
+  font-size: x-large;
+  font-family: 'Oswald', sans-serif;
+}
+
+#form-body button {
+  margin-top: 1rem;
+  background-color: #B67352;
+  height: 3rem;
+  width: 20rem;
+}
+
+@media (min-width: 768px) {
+  .image-link img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+  
+
+
 
 
   

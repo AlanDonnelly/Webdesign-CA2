@@ -1,40 +1,43 @@
+<!--Jesse G: 23277815:-->
+
 <!DOCTYPE html>
-<html lang="eng">
-
 <head>
-    <title>Simple Music Store</title>
+  <title>Instruments Catalog</title>
+  <html lang="eng"></html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Oswald Font: https://fonts.google.com/specimen/Oswald -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <!-- Mulish Font: https://fonts.google.com/specimen/Mulish -->
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- Montserrat Font: https://fonts.google.com/specimen/Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Oswald Font: https://fonts.google.com/specimen/Oswald -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <!-- Mulish Font: https://fonts.google.com/specimen/Mulish -->
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <!-- Montserrat Font: https://fonts.google.com/specimen/Montserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="Styles/style.css">
-
+  <link rel="stylesheet" href="Styles/style.css">
+  <script src="Scripts/jesse_Objs.js"></script>
+  <script src="Scripts/external_jesse.js"></script>
 </head>
- <!-- Navbar Start -->
+
+<body onload="renderProductsInstruments(filterInstruments('all'))">
+
+<!-- Navbar Start -->
 <div class="navaltcolor">
   <div class="navcontainer">
     <nav class="navbar navbar-expand-lg navbg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img id="mainlogoimg" src="Images\Logo(nav).png" alt="shaggymanestudios Logo" href="index.html"></a>
+        <a class="navbar-brand" href="index.html">
+        <img id="mainlogoimg" src="Images/Logo(nav).png" alt="Simple Music Store Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,9 +51,9 @@
                 Products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item active" aria-current="page" href="productspageone.html">Guitars and Gear</a></li>
+                <li><a class="dropdown-item" href="productspageone.html">Guitars and Gear</a></li>
                 <li><a class="dropdown-item" href="productspagetwo.html">Studio and Percussion</a></li>
-                <li><a class="dropdown-item" href="productsrentals.html">Rentals</a></li>
+                <li><a class="dropdown-item active" aria-current="page" href="productsrentals.html">Rentals</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -62,26 +65,53 @@
             <li class="nav-item">
               <a class="nav-link" href="contactus.html">Contact Us</a>
             </li>
-            
           </ul>
         </div>
       </div>
     </nav>
   </div>
 </div>
- <!-- Navbar End -->
-    <p>
-    <br>
-    <br>
-    <br>
-    <br>
-    Fill me with info!
-    <br>
-    <br>
-    <br>
-    <br>
-    </p>
-   <!-- Footer Start -->
+<!-- Navbar End -->
+
+<div class="image-link">
+  <img src="Images/Home Page/GuitarsSplashImage.png" alt="Woman with Guitar" style="height: 422px">
+<!-- Image Reference: https://www.pexels.com/photo/woman-holding-guitar-sitting-on-dock-2692080/ -->
+
+</div>
+
+<!--Page header -->
+
+<div id="instruments-intro">
+  <div>
+    <h1>Instrument Catalog</h1>
+  </div>
+  <p>You are invited to browse our extensive collection of instruments available for Purchase or Hire!</p>
+</div>
+
+<!-- Products Filter -->
+
+<div id="instruments-filter" class="container mt-5 mb-4">
+  <ul class="nav nav-pills nav-fill gap-1 p-1 small rounded-1 shadow-sm mb-5" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-white); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active rounded-1" id="all-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="all" aria-selected="true" onclick="renderProductsInstruments(filterInstruments('all'))">All Instruments</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-1" id="guitar-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="guitar" aria-selected="false" onclick="renderProductsInstruments(filterInstruments('Electric Guitar'))">Guitars</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-1" id="bass-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="bass" aria-selected="false" onclick="renderProductsInstruments(filterInstruments('Electric Bass'))">Basses</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-1" id="drum-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="drum" aria-selected="false" onclick="renderProductsInstruments(filterInstruments('Drum Kit'))">Drums</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-1" id="keyboard-tab" data-bs-toggle="tab" type="button" role="tab" aria-controls="keyboard" aria-selected="false" onclick="renderProductsInstruments(filterInstruments('Keys'))">Keyboards</button>
+    </li>
+  </ul>
+  <div id="product-list" class="row"></div>  
+</div>
+
+<!-- Footer Start -->
   <section class="footerwrap">
     <!-- Footer -->
     <footer class="mt-auto text-center">
@@ -158,6 +188,6 @@
     </footer>
   </section>
   <!-- Footer End -->
- </body> 
+</body>
 
 </html>
