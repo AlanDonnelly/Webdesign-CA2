@@ -2,6 +2,7 @@
 body{
   width: 100vw;
   background-color: #FEFBF6;
+  overflow-x: hidden;
 }
 /* Alan css for NavBar*/
 .navaltcolor{
@@ -144,55 +145,6 @@ position: inherit;
   
 }
 
-/* Alan css for Generic tags*/
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    }
-
-  h2 {
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  h3 {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  h4{
-    font-family: "Montserrat", sans-serif;
-    color: #ECB159;
-    background-color: #B67352;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  h6{
-    font-family: "Montserrat", sans-serif;
-    color: #000000;
-    background-color:   #ECB159;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  h7{
-    font-family: "Montserrat", sans-serif;
-    color: #000000;
-    background-color:  #FEFBF6;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
 
   .text-uppercase{
     font-family: "Montserrat", sans-serif;
@@ -244,6 +196,12 @@ h1 {
   }
 
   /* jesse css for pages Instruments + Amplifiers*/
+
+  .image-link img{
+    display: block;
+    width: 100vw;
+    height: auto;
+  }
 
   #instruments-intro {
     margin-top: 1rem;
@@ -304,6 +262,14 @@ h1 {
   font-family: "Oswald", sans-serif;
   transition: all .5s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  #product-card {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 
 #card-image {
   overflow: hidden;
@@ -421,6 +387,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding-left: 6rem;
   height: 100%;
   width: 100%;
 }
@@ -471,7 +438,12 @@ h1 {
   }
 }
 
-
+@media (max-width: 768px) {
+  .image-link img {
+    max-width: 100%;
+    height: auto;
+  }
+}
   
 
 
