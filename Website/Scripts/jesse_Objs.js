@@ -476,7 +476,7 @@ const AUDIO_PRODUCTS_LIST = [
       img: "Images/Products/vox_amp.jpg",
       // Photo by Wendy Wei: https://www.pexels.com/photo/mic-on-guitar-amplifier-10866261/
       price: 800.00,
-      description: "An all-time classic, the AC30's impact and presence cannot be argued. A perfect amp for small venues with no further amplification or pair it with a mic'd set up for more Rawr!"
+      description: "An all-time classic, the AC30's impact and presence cannot be argued. A perfect amp for small venues with no fussing!"
     },
     {
       name: "Hot Rod Deluxe",

@@ -339,6 +339,12 @@ position: inherit;
   font-size: larger;
 }
 
+@media (max-width: 576px){
+  #card-image img {
+    display: none;
+  }
+}
+
 /* jesse css for page Rentals */
 
 #rentals-container{

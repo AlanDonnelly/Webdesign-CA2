@@ -132,7 +132,7 @@ function renderProductsInstruments(filteredList = filterInstruments(category)) {
     filteredList.forEach(product => {
         let productCard = document.createElement('div');
         productCard.id = 'product-card';
-        productCard.classList.add('card', 'mb-2', 'mt-1');
+        productCard.classList.add('card', 'mb-2', 'mt-1', 'p-0');
         productCard.style.height = '200px';
 
         //to allow the use of BS columns (used a large gutter to stop text clipping issues)
@@ -142,13 +142,13 @@ function renderProductsInstruments(filteredList = filterInstruments(category)) {
         // creating the image and using innerHTML to set the src attribute of the Img tag
         let cardImage = document.createElement('div');
         cardImage.id = 'card-image';
-        cardImage.classList.add('col-md-3', 'img-fluid');
+        cardImage.classList.add('col-md-3', 'col-sm-4', 'col-xs-2', 'img-fluid');
         cardImage.innerHTML = `<img src="${product.img}" alt="${product.name}">`;
   
         // main body of card styled with CSS and used template literals to allow me to access the object variable for DOM update
         let cardBody = document.createElement('div');
         cardBody.id = 'card-body';
-        cardBody.classList.add('col-md-9');
+        cardBody.classList.add('col-md-9', 'col-sm-8', 'col-xs-10');
         cardBody.innerHTML = `<h4 id="card-title">${product.brand} ${product.name}</h4>
                         <h5 id="card-subtitle">${product.type} in ${product.color}<h5>
                         <h6 id="card-location">Made in: ${product.from}<h6>
@@ -182,12 +182,12 @@ function renderProductsAudio(filteredList = filterAudio(category)) {
 
         let cardImage = document.createElement('div');
         cardImage.id = 'card-image';
-        cardImage.classList.add('col-md-3', 'img-fluid');
+        cardImage.classList.add('col-md-3', 'col-sm-4', 'img-fluid');
         cardImage.innerHTML = `<img src="${product.img}" alt="${product.name}">`;
 
         let cardBody = document.createElement('div');
         cardBody.id = 'card-body';
-        cardBody.classList.add('col-md-9');
+        cardBody.classList.add('col-md-9', 'col-sm-8');
         cardBody.innerHTML = `<h4 id="card-title">${product.brand} ${product.name}</h4>
                         <h5 id="card-subtitle">${product.type} in ${product.color}<h5>
                         <h6 id="card-location">Made in: ${product.from}<h6>
