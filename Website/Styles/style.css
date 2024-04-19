@@ -197,6 +197,12 @@ position: inherit;
 
   /* jesse css for pages Instruments + Amplifiers*/
 
+  .image-link {
+    display: block;
+    width: 100vw;
+    height: auto;
+  }
+
   .image-link img{
     display: block;
     width: 100vw;
@@ -388,6 +394,48 @@ position: inherit;
   font-weight: 400;
 }
 
+@media (max-width: 1200px) {
+  #rentals-overview p {
+    font-size: medium;
+  }
+  #rentals-overview h4 {
+    font-size: large;
+  }
+  #rentals-overview h2 {
+    font-size: large;
+  }
+  #rentals-overview h5 {
+    font-size: large;
+  }
+  #rentals-overview br {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #rentals-overview p {
+    font-size: small;
+  }
+  #rentals-overview h4 {
+    font-size: medium;
+  }
+  #rentals-overview h2 {
+    font-size: medium;
+  }
+  #rentals-overview h5 {
+    font-size: medium;
+  }
+  #rentals-overview br {
+    display: none;
+  }
+}
+
+@media (max-width: 676px) {
+  #rentals-overview {
+    overflow-y: scroll;
+  }
+}
+
 #form-body{
   display: flex;
   flex-direction: column;
@@ -396,6 +444,15 @@ position: inherit;
   padding-left: 6rem;
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  #form-body {
+    max-width: 100%;
+    height: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 #form-body label {
