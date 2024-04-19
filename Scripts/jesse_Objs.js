@@ -693,7 +693,7 @@ const AUDIO_PRODUCTS_LIST = [
       brand: "D&B",
       color: "Black",
       from: "Germany",
-      img: "Images/Products/Gigabyte-Studio-Monitor",
+      img: "Images/Products/Gigabyte-Studio-Monitor.png",
       // Photo by Marinko Krsmanovic: https://www.pexels.com/photo/black-speaker-close-up-photography-2651794/
       price: 600.00,
       description: "D&B's classic monitors the M2 and M4 or veterans on the scene. Functional as studio or live monitors you won't find better at their price point!"
@@ -705,7 +705,7 @@ const AUDIO_PRODUCTS_LIST = [
       brand: "D&B",
       color: "Black",
       from: "Germany",
-      img: "Images/Products/Gigabyte-Studio-Monitor",
+      img: "Images/Products/Gigabyte-Studio-Monitor.png",
       // Photo by Marinko Krsmanovic: https://www.pexels.com/photo/black-speaker-close-up-photography-2651794/
       price: 800.00,
       description: "D&B's classic monitors the M2 and M4 or veterans on the scene. Functional as studio or live monitors you won't find better at their price point!"
