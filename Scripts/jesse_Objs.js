@@ -571,7 +571,7 @@ const AUDIO_PRODUCTS_LIST = [
       brand: "Shure",
       color: "Black",
       from: "USA",
-      img: "Images/Products/shure_mic.jpg",
+      img: "Images/Products/sm58.png",
       // Photo by Pixabay: https://www.pexels.com/photo/black-and-gray-microphone-164829/
       price: 90.00,
       description: "THE vocal microphone. Every studio in the country is kitted out with SM58's and for good reason. You will not find a more competitive and quality micrphone in this price range!"
@@ -583,7 +583,7 @@ const AUDIO_PRODUCTS_LIST = [
       brand: "Shure",
       color: "Black",
       from: "USA",
-      img: "Images/Products/shure_mic.jpg",
+      img: "Images/Products/sm58.png",
       // Photo by Pixabay: https://www.pexels.com/photo/black-and-gray-microphone-164829/
       price: 90.00,
       description: "THE instrument microphone. Every studio in the country is kitted out with SM58's and for good reason. You will not find a more competitive and quality micrphone in this price range!"
