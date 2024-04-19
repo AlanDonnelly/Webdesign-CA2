@@ -3,7 +3,7 @@ body{
   width: 100vw;
   background-color: #FEFBF6;
 }
-
+/* Alan css for NavBar*/
 .navaltcolor{
   background-color: #8CB9BD;
 }
@@ -25,11 +25,11 @@ body{
     color: #FEFBF6;
 }
 
-
+/* Alan css for Logo*/
 .mainlogoimg {
 position: inherit;
 }
-
+/* Alan css for Carousel*/
 .carousel-control-prev-icon, .carousel-control-next-icon {
   height: 60px;
   width: 60px;
@@ -56,7 +56,7 @@ position: inherit;
   font-weight: 700;
   font-style: normal;
 }
-
+/* Alan css for Button*/
 .btn-primary{
     border:none !important;
     color: #FEFBF6;
@@ -73,7 +73,7 @@ position: inherit;
     background-color: #B67352;
 }
 
-/* Game Start */
+/* Alan css for Game */
 #coveringimgs {
   margin-top: 50px;
   text-align: center;
@@ -124,9 +124,7 @@ position: inherit;
     margin-bottom: 50px;
 }
 
-/* Game End */
-
-/* Career Section Start*/
+/* Alan css for Career */
 #careerTextHead{
   font-family: "Montserrat", sans-serif;
   color: #8CB9BD;
@@ -146,8 +144,7 @@ position: inherit;
   
 }
 
-
-/* Career Section End*/
+/* Alan css for Generic tags*/
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -204,6 +201,8 @@ h1 {
     font-weight: 700;
     font-style: normal;
   }
+
+  /* Alan css for Footer*/
 
   .footerwrap{
     background-color:  #8CB9BD;
