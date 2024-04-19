@@ -8,7 +8,7 @@ const INSTRUMENT_PRODUCTS_LIST = [
       color: "Blonde",
       price: 1200.00,
       description: "Classic Fender P Bass with 2 band controls and the Precision sound we have all come to expect over the last Sixty years. A stalwart classic, guaranteed to give you your fix!",
-      img: "Images/Products/precision_bass.png",
+      img: "Images/Products/bass.png",
       // Image Reference: https://www.pexels.com/photo/close-up-shot-of-a-person-playing-an-electric-guitar-8044058/
       from: "USA"
     },
