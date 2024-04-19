@@ -1,4 +1,4 @@
-// Game Start
+// Alan JS
 document.addEventListener("DOMContentLoaded", function() 
 {
     const images = document.querySelectorAll('.image'); //Assigning class and IDs to variables
